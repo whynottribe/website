@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+    background-color: aqua;
+}
+
+.btnAnim{
+    opacity: 100%;
+}
+
+.btnAnim:hover{
+    opacity: 70%;
+}
+
+.btnActive{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1199px){
+    .hide1{
+      display: none;
+    }
+
+    .hide2{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .hide1{
+      display: block;
+    }
+
+    .hide2{
+        display: none;
+      }
+}
